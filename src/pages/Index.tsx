@@ -39,88 +39,88 @@ const Index = () => {
 
   const projects: Project[] = [
     {
-      title: 'E-Commerce Platform',
-      duration: '3 months',
-      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js'],
-      description: 'Built a full-stack e-commerce platform with product management, shopping cart, and payment integration.',
-      impact: '500+ daily active users, 95% customer satisfaction rate',
-      link: 'https://example.com/project1'
+      title: 'Local Bookstore Marketplace',
+      duration: 'Summer 2025 (2.5 months)',
+      technologies: ['React', 'TypeScript', 'Stripe API', 'Firebase'],
+      description: 'Started because my neighborhood bookstore was struggling. Built them a custom online store where customers could browse inventory, reserve books, and pay online for pickup.',
+      impact: 'Helped them survive COVID — sales jumped 300% in first month. Now processing $2k+ weekly',
+      link: 'https://github.com/yourproject'
     },
     {
-      title: 'AI Task Manager',
-      duration: '2 months',
-      technologies: ['Vue', 'TypeScript', 'OpenAI API', 'Firebase'],
-      description: 'Developed an intelligent task management app that uses AI to prioritize and suggest tasks based on user behavior.',
-      impact: 'Improved user productivity by 40%',
-      link: 'https://example.com/project2'
+      title: 'StudySync — Pomodoro with Friends',
+      duration: 'Fall 2025 (6 weeks)',
+      technologies: ['Vue', 'Socket.io', 'Node.js', 'MongoDB'],
+      description: 'Got tired of studying alone during remote learning. Made an app where you can see friends studying in real-time, share timers, and celebrate focus streaks together.',
+      impact: '200+ students from 4 schools use it daily. One user said it got them through finals 🎉',
+      link: 'https://github.com/yourproject'
     },
     {
-      title: 'Real-time Collaboration Tool',
-      duration: '4 months',
-      technologies: ['Angular', 'Next.js', 'WebSocket', 'PostgreSQL'],
-      description: 'Created a collaborative whiteboard application with real-time synchronization for remote teams.',
-      impact: 'Used by 50+ organizations, featured in Product Hunt',
-      link: 'https://example.com/project3'
+      title: 'Open Source: React Calendar Library',
+      duration: 'Ongoing since March 2025',
+      technologies: ['React', 'TypeScript', 'Rollup', 'Jest'],
+      description: 'Frustrated by bloated calendar packages, built a lightweight alternative. Contributed to the ecosystem I rely on.',
+      impact: '1.2k GitHub stars, 50+ contributors, used in production by 3 startups I know of',
+      link: 'https://github.com/yourproject'
     }
   ];
 
   const learnings: Learning[] = [
     {
-      title: 'Advanced React Patterns',
-      source: 'Kent C. Dodds Course + Personal Projects',
-      skills: ['Compound Components', 'Render Props', 'Hooks Optimization', 'Context API'],
-      description: 'Mastered advanced React patterns through online courses and implemented them in production applications, improving code reusability by 60%.'
+      title: 'The Hard Way: Database Design',
+      source: 'Breaking my own app at 3am + Stack Overflow',
+      skills: ['Indexing', 'Query Optimization', 'Normalization', 'Redis Caching'],
+      description: 'My app crashed when 50 users joined at once. Spent a weekend learning why my queries were slow, how indexes work, and when to cache. Now it handles 500+ concurrent users smoothly.'
     },
     {
-      title: 'System Design & Architecture',
-      source: 'MIT OpenCourseWare + Real Projects',
-      skills: ['Microservices', 'Database Design', 'API Architecture', 'Scalability'],
-      description: 'Studied distributed systems theory and applied principles to design scalable applications handling 10K+ concurrent users.'
+      title: 'TypeScript (from JavaScript chaos)',
+      source: 'Refactoring a 3000-line JS mess',
+      skills: ['Type Systems', 'Generics', 'Strict Mode', 'Utility Types'],
+      description: 'Had a project with bugs everywhere. Decided to learn TypeScript properly. Caught 40+ bugs during migration. Never going back to vanilla JS for serious projects.'
     },
     {
-      title: 'TypeScript & Type Safety',
-      source: 'Self-taught + Open Source Contributions',
-      skills: ['Advanced Types', 'Generics', 'Type Guards', 'Utility Types'],
-      description: 'Deep-dived into TypeScript, contributing to type definitions for popular libraries and reducing runtime errors by 80% in my projects.'
+      title: 'System Design from Scratch',
+      source: 'MIT OCW + Building for Scale',
+      skills: ['Load Balancing', 'CDNs', 'Microservices', 'API Design'],
+      description: 'Studied how real systems work — from Netflix to Discord. Applied concepts when my app needed to handle traffic spikes. Fascinating how theory connects to practice.'
     }
   ];
 
   const teachings: Teaching[] = [
     {
-      title: 'Web Development Bootcamp',
-      audience: '30+ students (ages 16-18)',
-      topics: ['HTML/CSS', 'JavaScript', 'React Basics', 'Git/GitHub'],
-      description: 'Organized and taught a 12-week bootcamp for high school students, with 90% of participants building and deploying their first web app.'
+      title: 'Coding Club @ Local Library',
+      audience: '15 kids (ages 12-16) every Saturday',
+      topics: ['HTML/CSS', 'JavaScript Basics', 'Making Games', 'GitHub'],
+      description: 'Started this because I wished someone taught me code when I was younger. We built personal websites, simple games, and even a group project. Seeing their first "Hello World" never gets old.'
     },
     {
-      title: 'Technical Writing & Documentation',
-      audience: 'Open Source Community',
-      topics: ['API Documentation', 'Code Examples', 'Tutorials', 'Best Practices'],
-      description: 'Created comprehensive documentation for 5+ open-source projects, helping 1000+ developers integrate and contribute to the codebase.'
+      title: 'YouTube: "Code With Me" Series',
+      audience: '~3k subscribers, mostly beginners',
+      topics: ['React Tutorials', 'Debugging Live', 'Project Walkthroughs'],
+      description: 'Record myself building projects from scratch, mistakes and all. Comments say the "unpolished" style helps more than perfect tutorials. Posted 12 videos so far.'
     },
     {
-      title: 'Code Review Workshops',
-      audience: 'Junior Developers',
-      topics: ['Clean Code', 'Design Patterns', 'Performance', 'Security'],
-      description: 'Led weekly code review sessions, mentoring 15+ junior developers on writing maintainable and efficient code.'
+      title: 'Mentoring @ Dev Together',
+      audience: '3 mentees transitioning to tech',
+      topics: ['Portfolio Reviews', 'Interview Prep', 'Code Reviews', 'Career Advice'],
+      description: 'Weekly 1-on-1s helping people break into tech. One mentee just landed their first dev job! Learned as much from them as they did from me.'
     }
   ];
 
   const recommendations: Recommendation[] = [
     {
-      name: 'Dr. Sarah Johnson',
-      title: 'Computer Science Professor, MIT',
-      pdfLink: '/recommendations/sarah-johnson.pdf'
+      name: 'Prof. James Martinez',
+      title: 'CS Department, State University',
+      pdfLink: '/recommendations/martinez.pdf'
     },
     {
-      name: 'Michael Chen',
-      title: 'Senior Software Engineer, Google',
-      pdfLink: '/recommendations/michael-chen.pdf'
+      name: 'Sarah Kim',
+      title: 'Founder, LocalBookstore.com',
+      pdfLink: '/recommendations/kim.pdf'
     },
     {
-      name: 'Emily Rodriguez',
-      title: 'CTO, TechStartup Inc.',
-      pdfLink: '/recommendations/emily-rodriguez.pdf'
+      name: 'David Chen',
+      title: 'Engineering Lead, TechCorp',
+      pdfLink: '/recommendations/chen.pdf'
     }
   ];
 
@@ -255,11 +255,11 @@ const Index = () => {
           
           <div className="space-y-4">
             <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
-              Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Alexandra</span>
+              Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Alex</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Full-stack developer passionate about building impactful web applications. 
-              I learn by building, teach by sharing, and grow by contributing to the community.
+              I build things, break them, fix them, then help others do the same. 
+              Started coding at 14. Still figuring it out. Love it anyway.
             </p>
           </div>
           
@@ -355,7 +355,7 @@ const Index = () => {
         </section>
 
         <footer className="text-center pt-8 pb-4 text-sm text-muted-foreground">
-          <p>© 2026 Alexandra. Built with React & TypeScript</p>
+          <p>Built by hand, no templates. React + TypeScript + lots of coffee ☕</p>
         </footer>
 
       </div>
